@@ -1,7 +1,8 @@
 {
   "expo": {
     "name": "TutoxMobile",
-    "slug": "TutoxMobile",
+    "slug": "tutoxmobile",
+    "owner": "loganathan02",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,12 +17,18 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.loganathan02.tutoxmobile",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96fc0100-b210-4da2-b84a-63dffb854f3f"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
